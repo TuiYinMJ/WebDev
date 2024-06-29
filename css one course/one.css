@@ -16,6 +16,8 @@ h1,h2{
 
 h1{
     font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
 }
 h2 {
     font-size: 30px;
@@ -44,10 +46,48 @@ h2 {
 
 .item p{
     display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
 }
 
 hr{
     height: 2px;
     background-color: brown;
     border-color: brown;
+}
+
+.bottom-line{
+    margin-top: 25px;
+}
+
+/* FOOTER */
+footer{
+    font-size: 14px;
+}
+
+footer a{
+    color:black;
+}
+
+footer a:visited{
+    color:black;
+}
+
+footer a:hover{
+    color: brown;
+}
+
+footer a:active{
+    color:brown;
+}
+
+.address{
+    margin-bottom: 5px;
+}
+
+img{
+    display: block;
+    margin:0 auto;
+    margin-top: -25px;
 }
