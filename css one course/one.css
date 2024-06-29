@@ -6,15 +6,33 @@ p {
 
 body{
     background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+    font-family: sans-serif;
+    padding: 20px;
+}
+
+h1,h2{
+    font-family: Impact,serif;
+}
+
+h1{
+    font-size: 40px;
+}
+h2 {
+    font-size: 30px;
+}
+.established{
+    font-style: italic;
 }
 
 #menu{
     width: 80%;
+    max-width: 500px;
     background-color: burlywood;
     margin: 0 auto;
+    padding: 20px;
 }
 
-.flavor{
+.flavor,.dessert{
     width: 75%;
     text-align: left;
 }
@@ -26,4 +44,10 @@ body{
 
 .item p{
     display: inline-block;
+}
+
+hr{
+    height: 2px;
+    background-color: brown;
+    border-color: brown;
 }
