@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>freeCodeCamp Survey Form</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+    <form id="survey-form">
+        <label for="name" id="name-label">name: <input type="text" id="name" placeholder="Enter your name" required></label>
+        <label for="email" id="email-label">email: <input type="email" id="email" placeholder="Enter your email" required></label>
+        <label for="number" id="number-label">number: <input type="number" id="number" min="0" max="10" placeholder="Enter your age"></label>
+
+        <label for="">Which option best describes your current role?</label>
+        <select id="dropdown">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+        </select>
+
+        <label for="">Would you recommend freeCodeCamp to a friend?</label>
+        <input type="radio" name="gender" value="male" checked>Definitely
+        <input type="radio" name="gender" value="female">Definitely
+
+        <label for="">What would you like to see improved?</label>
+        <input type="checkbox" name="vehicle1" value="Bike">Definitely
+        <input type="checkbox" name="vehicle2" value="Car">Definitely
+        <input type="checkbox" name="vehicle3" value="Boat">Definitely
+
+        <label for="">Any comments or suggestions?</label>
+        <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
+
+
+        <button type="submit" id="submit">Submit</button>
+    </form>
+</body>
+</html>
