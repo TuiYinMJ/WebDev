@@ -1,0 +1,122 @@
+/* 初始化 */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* 头部 */
+
+header {
+    background-color: lightseagreen;
+    padding: 0.5em 1em;
+    display: flex;
+}
+
+
+/* logo  */
+
+header .title {
+    font-weight: lighter;
+    font-style: italic;
+    color: white;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px 1px #555;
+}
+
+
+/* 登录按钮 */
+
+header button {
+    margin-left: auto;
+    width: 5em;
+    border: none;
+    border-radius: 0.5em;
+}
+
+header button:hover {
+    cursor: pointer;
+    background-color: coral;
+    color: #fff;
+    box-shadow: 0 0 5px #fff;
+    transition: 0.3s;
+}
+
+
+/* 模态框 */
+
+.modal .modal-form fieldset {
+    height: 15.5em;
+    background-color: lightcyan;
+    border: none;
+    padding: 2em 3em;
+    box-shadow: 0 0 5px #888;
+}
+
+
+/* 模态框表单标题 */
+
+.modal .modal-form fieldset legend {
+    padding: 7px 1.5em;
+    background-color: lightseagreen;
+    color: white;
+}
+
+.modal .modal-form fieldset input {
+    height: 3em;
+    padding-left: 1em;
+    outline: none;
+    border: 1px solid #ddd;
+    font-size: 14px;
+}
+
+
+/* :focus: 表单控件,获取焦点时的样式 */
+
+.modal .modal-form fieldset input:focus {
+    box-shadow: 0 0 8px #888;
+    border: none;
+}
+
+.modal .modal-form fieldset button {
+    background-color: lightseagreen;
+    color: white;
+    border: none;
+    height: 3em;
+    font-size: 16px;
+    height: 2.5em;
+}
+
+.modal .modal-form fieldset button:hover {
+    background-color: coral;
+    cursor: pointer;
+}
+
+
+/* 定位 */
+
+.modal .modal-form {
+    position: fixed;
+    top: 10em;
+    left: 38em;
+    right: 38em;
+}
+
+
+/* 遮罩 */
+
+.modal .modal-bg {
+    position: fixed;
+    /* 坐标全部清0,请定位到四个顶点 */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(0, 0, 0, 0.5);
+}
+
+.modal {
+    display: none;
+}

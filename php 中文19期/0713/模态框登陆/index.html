@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>模态框</title>
+    <link rel="stylesheet" href="modal.css" />
+</head>
+
+<body>
+    <header>
+        <h2 class="title">猪老师的博客</h2>
+        <button onclick="showModal()">登录</button>
+    </header>
+
+    <!-- 模态框 -->
+    <div class="modal">
+        <!-- 1. 半透明的遮罩 -->
+        <div class="modal-bg" onclick="closeModal()"></div>
+        <!-- 2. 弹层表单 -->
+        <form action="" class="modal-form">
+            <fieldset style="display: grid; gap: 1em">
+                <legend>用户登录</legend>
+                <input type="email" name="email" placeholder="user@email.com" />
+                <input type="password" name="password" placeholder="不少于6位" />
+                <button>登录</button>
+            </fieldset>
+        </form>
+    </div>
+    <script src="modal.js"></script>
+</body>
+
+</html>
