@@ -1,0 +1,85 @@
+header .top{
+    width: 100vw;
+    height: 40px;
+    background-color: rgb(52,52,52);
+    color:#ccc;
+}
+
+header .top .content{
+    width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-auto-rows: 40px;
+    grid-template-columns: 400px 100px;
+    place-content: space-between;
+    place-items: center start;
+}
+
+header .top .content img{
+    width: 50%;
+    border-radius: 50%;
+}
+
+header .top .content .right .iconfont{
+    color:#ccc;
+    font-size: larger;
+}
+
+header .top .content .right{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    place-items: center;
+}
+
+
+/* 导航 */
+header .navs {
+    width: 100vw;
+    height: 90px;
+    background-color: #fff;
+}
+
+header .navs .content{
+    width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-auto-rows: 90px;
+    grid-template-columns: 140px 1fr 206px;
+    place-items: center start;
+    gap: 10px;
+}
+
+header .navs .content img {
+    width: 40%;
+}
+
+header .navs .content a.active,
+header .navs .content a:hover{
+    color:red;
+    font-weight: 700;
+}
+
+header .navs .content a{
+    padding: 0 20px;
+}
+
+header .navs .content input[type=search] {
+    outline: none;
+    border: none;
+    width: 200px;
+    height: 36px;
+    background-color: #f7f8fa;
+    border-radius: 20px;
+    padding-left: 10px;
+}
+header .navs .content .search{
+    padding-top: 25px;
+}
+
+header .navs .content .icon-fangdajing{
+    font-size: 20px;
+    position: relative;
+    top:-31px;
+    right: -170px;
+    font-weight: 700;
+}
