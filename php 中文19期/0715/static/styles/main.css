@@ -1,0 +1,76 @@
+main{
+    font-size: 14px;
+}
+
+main .navs{
+    display: grid;
+    grid-template-columns: 160px 810px 190px;
+    grid-template-rows: 400px 80px;
+    gap: 20px;
+    place-content: center;
+    margin: 30px 0;
+}
+
+main .navs>*{
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+main .navs .slider img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+main .navs .bottom-left{
+    grid-column: span 2;
+}
+
+main .navs .left{
+    display: grid;
+    place-items: center;
+    padding: 20px 0;
+}
+
+main .navs .right{
+    display: grid;
+    padding: 20px 0;
+    place-items: center;
+}
+
+main .navs .left a:hover{
+    color:red;
+    background-color: rgb(250,223,227);
+}
+
+main .navs .left a{
+    padding: 10px 30px;
+    border-radius: 30px;
+}
+
+main .navs .bottom-left{
+    display: grid;
+    grid-template-columns: 100px 1fr;
+}
+main .navs .bottom-left .desc{
+    display: grid;
+    place-items: center;;
+}
+
+main .navs .bottom-left .detail img{
+    width: 100%;
+    grid-row: span 2;
+}
+
+main .navs .bottom-left .detail{
+    display: flex;
+    place-items: center;
+    place-content: space-between;
+}
+
+main .navs .bottom-left .detail li{
+    display: grid;
+    grid-template-columns: 36px 85px;
+    gap:0 10px;
+    place-items: center start;
+}
