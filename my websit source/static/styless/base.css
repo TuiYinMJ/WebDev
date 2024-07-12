@@ -1,0 +1,9 @@
+.container{
+    width: 71.25rem;
+    margin: 0 auto;
+}
+
+.web-box header .top{
+    background-color: rgb(38, 38, 38);
+    height: 3.875rem;
+}

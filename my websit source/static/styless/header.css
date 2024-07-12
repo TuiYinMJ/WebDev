@@ -1,0 +1,36 @@
+header .top .top-nav{
+    display: grid;
+    grid-template-columns: 12.5rem 1fr 12.5rem;
+    place-content: space-between;
+    place-items: center;
+    align-items: center;
+    padding-top: 0.625rem;
+    height: 3.875rem;
+}
+header .top .top-nav input{
+    outline: none;
+    width: 400px;
+    height: 36px;
+    background-color: rgb(241, 241, 241);
+}
+
+
+header .nav{
+    background-color: rgb(53, 53, 53);
+    height: 3.125rem;
+}
+
+header .nav .nav-list{
+    display: flex;
+    height: 2.8125rem;
+    align-items: center;
+}
+
+header .nav .nav-list a{
+    font-size: 14px;
+    padding: 0 1rem;
+}
+
+header .nav .nav-list a:hover{
+    color:red;
+}
