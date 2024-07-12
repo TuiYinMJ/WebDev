@@ -1,0 +1,13 @@
+footer{
+    height: 15rem;
+    margin-top: 3rem;
+    background-color: rgb(53, 53, 53);
+    color: #fff;
+}
+
+footer .footer{
+    height: 15rem;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+}

@@ -1,0 +1,67 @@
+main{
+    margin-top: 3rem;
+}
+.main-content h2{
+    text-align: center;
+}
+
+.shopping{
+    margin-top: 3rem;
+}
+
+.shopping ul{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr 1fr;
+    gap: 1rem;
+    place-content: center;
+    place-items: center;
+}
+
+.shopping .com {
+    width: 12.5rem;
+    height: 18rem;
+    transition: 0.5s all;
+    /* border:1px solid #ccc; */
+    /* background-color: red; */
+}
+
+.shopping .com .shopbox {
+    width: 12.5rem;
+    text-align: center;
+}
+
+.shopping .com .shopbox .desc{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.shopping .com img{
+    width: 100%;
+    /* border-bottom: 1px solid #ccc; */
+}
+
+.shopping .com .shopbox p{
+    padding: 0.3rem;
+}
+
+.shopping .com .shopbox .price{
+    display: flex;
+    justify-content: center;
+}
+
+.shopping .com .shopbox .price .old-price{
+    text-decoration: line-through;
+    color:#ccc;
+}
+
+.shopping .com .shopbox .price .new-price {
+    color: red;
+}
+
+.shopping .com:hover{
+    transform: translate(-2px, -10px);
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
